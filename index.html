@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>已經足夠了｜Ilse Kutschera《時代的女兒》閱讀摘要</title>
+<meta name="description" content="一位 80 歲維也納醫師與心理治療師的自傳：遲來的醫師之路、放下自責、好奇心，以及「已經足夠了」的領悟。">
+<meta property="og:title" content="已經足夠了｜一位老醫師的自傳">
+<meta property="og:description" content="Ilse Kutschera《時代的女兒》閱讀摘要：80 歲回望一生的真誠文字。">
+<meta property="og:type" content="article">
+<meta name="theme-color" content="#f7f1e8">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌅</text></svg>">
+<style>
+  :root {
+    --bg: #f7f1e8;
+    --paper: #fffdf9;
+    --ink: #2b2622;
+    --muted: #6f655c;
+    --line: #e8ddcf;
+    --accent: #a8572b;
+    --accent-soft: #f6e6d8;
+    --sage: #4f6f62;
+    --sage-soft: #e6eee9;
+    --radius: 18px;
+    --serif: "Noto Serif TC", "Songti TC", "PMingLiU", "MingLiU", serif;
+    --sans: -apple-system, BlinkMacSystemFont, "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1715;
+      --paper: #24201d;
+      --ink: #f1ebe4;
+      --muted: #b3a79b;
+      --line: #3a332d;
+      --accent: #e8a373;
+      --accent-soft: #3a2a20;
+      --sage: #9cc3b2;
+      --sage-soft: #243029;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    line-height: 1.85;
+    font-size: 17px;
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  }
+  main { max-width: 680px; margin: 0 auto; padding: 0 20px 64px; }
+
+  .back {
+    display: inline-block; margin: 20px 0 0; font-size: .88rem;
+    color: var(--muted); text-decoration: none;
+  }
+  .back:hover { color: var(--accent); }
+
+  /* 開場 */
+  header.hero { padding: 48px 0 32px; text-align: center; }
+  .hero .emoji { font-size: 2.6rem; line-height: 1; }
+  .hero h1 {
+    font-family: var(--serif); font-weight: 700;
+    font-size: clamp(2.2rem, 8vw, 3rem); letter-spacing: .12em;
+    margin: 16px 0 8px;
+  }
+  .hero .sub { margin: 0; color: var(--muted); font-size: .98rem; }
+  .hero .orig { margin: 6px 0 0; color: var(--muted); font-size: .82rem; font-style: italic; }
+  .intro {
+    margin: 32px auto 0; padding: 20px 22px;
+    background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius);
+    font-size: 1rem; text-align: left;
+  }
+  .intro p { margin: 0; }
+
+  section { margin-top: 56px; }
+  h2 {
+    font-family: var(--serif); font-size: 1.4rem; margin: 0 0 20px;
+    display: flex; align-items: center; gap: 10px;
+  }
+  h2::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+
+  /* 時間軸 */
+  .timeline { list-style: none; margin: 0; padding: 0; position: relative; }
+  .timeline::before {
+    content: ""; position: absolute; left: 58px; top: 8px; bottom: 8px;
+    width: 2px; background: var(--line);
+  }
+  .timeline li { display: grid; grid-template-columns: 50px 1fr; gap: 26px; padding: 8px 0; position: relative; }
+  .timeline li::before {
+    content: ""; position: absolute; left: 53px; top: 18px;
+    width: 12px; height: 12px; border-radius: 50%;
+    background: var(--paper); border: 2px solid var(--accent);
+  }
+  .timeline li.key::before { background: var(--accent); }
+  .timeline .age { font-weight: 700; color: var(--accent); font-size: .92rem; text-align: right; padding-top: 2px; }
+  .timeline .what { font-size: .98rem; }
+  .story {
+    margin: 24px 0 0; color: var(--muted); font-family: var(--serif);
+    font-size: 1.02rem; text-align: center;
+  }
+
+  /* 主題卡片 */
+  .theme {
+    background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 26px 24px 22px; margin-bottom: 20px;
+  }
+  .theme .num { font-size: .8rem; font-weight: 700; color: var(--accent); letter-spacing: .1em; }
+  .theme h3 { font-family: var(--serif); font-size: 1.22rem; margin: 4px 0 16px; line-height: 1.5; }
+  blockquote {
+    margin: 0 0 16px; padding: 4px 0 4px 18px;
+    border-left: 3px solid var(--accent);
+    font-family: var(--serif); font-size: 1.08rem; line-height: 1.9;
+  }
+  .theme .summary { margin: 0 0 16px; }
+  .mine {
+    background: var(--sage-soft); border-radius: 12px; padding: 14px 16px;
+    font-size: .95rem;
+  }
+  .mine .label { display: block; font-size: .78rem; font-weight: 700; color: var(--sage); letter-spacing: .08em; margin-bottom: 2px; }
+
+  /* 結尾 */
+  .ending {
+    text-align: center; padding: 36px 24px;
+    background: var(--accent-soft); border-radius: var(--radius);
+  }
+  .ending .q { font-family: var(--serif); font-size: 1.2rem; line-height: 1.8; margin: 0 0 16px; }
+  .ending .thanks { margin: 0 0 20px; color: var(--muted); font-size: .92rem; }
+  .share {
+    font: inherit; font-size: .95rem; cursor: pointer;
+    background: var(--accent); color: #fff; border: 0; border-radius: 999px;
+    padding: 10px 22px;
+  }
+  @media (prefers-color-scheme: dark) { .share { color: #1a1715; } }
+  .share:active { transform: scale(.97); }
+
+  footer { margin-top: 48px; font-size: .82rem; color: var(--muted); line-height: 1.7; }
+  footer p { margin: 0 0 6px; }
+  footer i { font-style: italic; }
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="https://ccc99188-oss.github.io/">← 回到作品集</a>
+
+  <header class="hero">
+    <div class="emoji" aria-hidden="true">🌅</div>
+    <h1>已經足夠了</h1>
+    <p class="sub">Ilse Kutschera《時代的女兒：從維也納小丫頭到醫師與心理治療師》閱讀摘要</p>
+    <p class="orig">Tochter meiner Zeit: Vom Mäderl zur Ärztin und Psychotherapeutin</p>
+    <div class="intro">
+      <p>讀到一位老醫師的自傳，覺得心裡暖暖的。我特別喜歡她文字裡的真誠，每天都會再拿起來重讀兩、三遍。想把這份溫暖整理下來，分享給你。</p>
+    </div>
+  </header>
+
+  <section>
+    <h2>她是誰</h2>
+    <ol class="timeline">
+      <li><span class="age">1936</span><span class="what">出生於維也納。</span></li>
+      <li><span class="age">年輕時</span><span class="what">申請上美國新罕布夏州 Hanover 的醫學系，卻因父母反對而沒能就讀。那個年代，「女人應該結婚、生孩子」仍是根深蒂固的期待。</span></li>
+      <li class="key"><span class="age">29 歲</span><span class="what">想當醫師的願望始終沒有消失，她在德國重新開始醫學訓練。</span></li>
+      <li><span class="age">35 歲</span><span class="what">完成醫學院學業，之後接受精神分析與心理治療訓練，擔任內科與心臟科醫師。</span></li>
+      <li><span class="age">62 歲</span><span class="what">結束醫師工作，轉入自營的心理治療工作。</span></li>
+      <li class="key"><span class="age">80 歲</span><span class="what">寫下這些回望一生的文字。</span></li>
+    </ol>
+    <p class="story">一段遲來的醫師之路，<br>也是一個人在時代、家庭與自我之間，<br>不斷尋找自己真正想走的路的故事。</p>
+  </section>
+
+  <section>
+    <h2>五個讓我停下來的地方</h2>
+
+    <article class="theme">
+      <div class="num">01</div>
+      <h3>事物回到它應有的重要程度</h3>
+      <blockquote>「老年的美好之處在於：事物終於會回到它真正應有的重要程度。」</blockquote>
+      <p class="summary">走進人生的第八十年，她發現小事已經不值得生氣。漫長的人生經驗讓她更容易看見事情的本質，分辨什麼並不重要、什麼才真正重要。</p>
+      <div class="mine"><span class="label">我的感想</span>我常常為小事卡住一整天。讀到這句，忽然覺得不必等到八十歲，現在就可以練習問自己：這件事，五年後還重要嗎？</div>
+    </article>
+
+    <article class="theme">
+      <div class="num">02</div>
+      <h3>自責什麼也沒有改變</h3>
+      <blockquote>「我一輩子都在自責，但那些自責最後其實什麼也沒有改變。」</blockquote>
+      <p class="summary">自責留下的，只有「我毫無價值」的感覺。透過心理治療，她看見這種感覺矛盾地帶著吸引力：靠近受害者的位置，讓她能活出自己的「受害者認同」。這個模式一次次把她帶進死胡同，也傷了那些真心善待她的人。</p>
+      <div class="mine"><span class="label">我的感想</span>最打動我的是她的坦白。原來「覺得自己沒價值」也可能是一個熟悉的角落，待久了反而捨不得離開。先看見它，才有機會不再被它帶著走。</div>
+    </article>
+
+    <article class="theme">
+      <div class="num">03</div>
+      <h3>用幽默接住改不掉的自己</h3>
+      <blockquote>「至於那些我仍然會重複犯的錯誤，我現在至少可以靠幽默感，笑一笑地看待它們。」</blockquote>
+      <p class="summary">她認出了自己的關係與行為模式，也誠實承認，真正能長期改變的只有其中一部分。剩下的，她選擇不再苛責，而是溫和地笑著面對，並且試著對自己不要那麼嚴苛。</p>
+      <div class="mine"><span class="label">我的感想</span>我很喜歡這種溫柔的誠實：不是每個毛病都改得掉，但可以不再為它們責怪自己。對自己有幽默感，大概是一種很成熟的善意。</div>
+    </article>
+
+    <article class="theme">
+      <div class="num">04</div>
+      <h3>「已經足夠了」</h3>
+      <blockquote>「一種『已經足夠了』的感覺越來越強烈。這也使我更加滿足。」</blockquote>
+      <p class="summary">更深刻地感受到生命有限，反而讓她更能活在此時此刻：走路就走路，吃飯就吃飯，閱讀就閱讀。過去她花了許多年追尋沒能得到的東西；如今她有意識地把目光轉向已經完成的、擁有的，以及因付出而感到的喜悅。她也坦白：這不像寫起來那麼容易，至今仍是每天都要重新面對的功課。</p>
+      <div class="mine"><span class="label">我的感想</span>「已經足夠了」不是放棄，而是終於看見手上已經有的。她說這是每天的功課，讓我覺得自己做不到的那些日子，也沒有關係。</div>
+    </article>
+
+    <article class="theme">
+      <div class="num">05</div>
+      <h3>好奇心，與理解一個獨特的人</h3>
+      <blockquote>「理解一個獨特的人，比遵循一般性的規則更加重要。」</blockquote>
+      <p class="summary">好奇心推動了她的一生：醫學院時著迷於人體如何運作，做心理治療時，最幸福的是看見一個人生命中的拼圖逐漸接上、成為完整的圖像。經驗越多，她越敬畏每個人在關係網絡中的獨特與複雜，也努力少一點評斷、多一點理解。</p>
+      <div class="mine"><span class="label">我的感想</span>這句話讓我想到工作和生活中遇到的每一個人。規則是起點，但真正的理解，來自願意好奇對方是誰。</div>
+    </article>
+  </section>
+
+  <section class="ending">
+    <p class="q">如果你也走到人生的第八十年，<br>你希望自己對什麼，<br>感到「已經足夠了」？</p>
+    <p class="thanks">謝謝你讀到這裡。</p>
+    <button class="share" id="share" type="button">分享給朋友</button>
+  </section>
+
+  <footer>
+    <p>原書：Ilse Kutschera，<i>Tochter meiner Zeit: Vom Mäderl zur Ärztin und Psychotherapeutin</i>（德文）。</p>
+    <p>中文為讀者自譯，僅摘錄片段；摘要與感想為讀者個人整理。</p>
+  </footer>
+</main>
+
+<script>
+  document.getElementById("share").addEventListener("click", async (e) => {
+    const data = { title: document.title, url: location.href };
+    try {
+      if (navigator.share) { await navigator.share(data); return; }
+      await navigator.clipboard.writeText(location.href);
+      e.target.textContent = "已複製連結 ✓";
+      setTimeout(() => (e.target.textContent = "分享給朋友"), 2000);
+    } catch (_) {}
+  });
+</script>
+</body>
+</html>
